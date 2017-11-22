@@ -19,7 +19,7 @@ run `npm install`
 * Change the key values in gradle.properties
 * Create Apps in Microsoft AppCenter, and get the app secret, and deployment keys.
 * Update the Android App Secret at "android/app/src/main/assets/appcenter-config.json"
-* Update the iOS App Secret at ""
+* Update the iOS App Secret at "ios/{ProjectName}/AppCenter-Config.plist"
 * Change the Android Deployment Key at strings.xml: "reactNativeCodePush_androidDeploymentKey"
 * Change the iOS Deployment Key at info.plist: "CodePushDeploymentKey"
-  See [Appcenter Docs](https://docs.microsoft.com/en-us/appcenter/sdk/getting-started/react-native) 
+  - See [Appcenter Docs](https://docs.microsoft.com/en-us/appcenter/sdk/getting-started/react-native) 
